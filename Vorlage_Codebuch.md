@@ -20,7 +20,7 @@ Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*.
 **name**
 - Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
   
-**type***    
+**type**    
 Um welche Art von Knoten handelt es sich?  
 - 1 = SongwriterIn,  
 - 2 = KünstlerIn, 
