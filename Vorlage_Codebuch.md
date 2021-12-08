@@ -22,28 +22,29 @@ Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Arti
   
 **type***    
 Um welche Art von Knoten handelt es sich?  
-1 = SongwriterIn,  
-2 = KünstlerIn, 
-3 = Album. 
+- 1 = SongwriterIn,  
+- 2 = KünstlerIn, 
+- 3 = Album. 
 
 **sex**    
 Bitte geben Sie ihr Geschlecht an:  
-1 = weiblich,  
-2 = männlich, 
-3 = divers.
+- 1 = weiblich,  
+- 2 = männlich, 
+- 3 = divers.
 
 **origin**
 Herkunft der KünstlerInnen bzw. SongwriterInnen
-1 = britisch,
-2 = US-amerikanisch,
-3 = deutsch,
-4 = spanisch,
-5 = französisch,
-6 = italienisch,
-7 = kanadisch,
-8 = australisch,
-9 = schwedisch
-10 = sonstiges.
+-	1 = britisch,
+-	2 = US-amerikanisch,
+-	3 = deutsch,
+-	4 = spanisch,
+-	5 = französisch,
+-	6 = italienisch,
+-	7 = kanadisch,
+-	8 = australisch,
+- 9 = schwedisch
+-	10 = sonstiges.
+
   
 **genre**    
 Welches Genre?    
