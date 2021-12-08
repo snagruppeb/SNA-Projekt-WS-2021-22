@@ -89,11 +89,11 @@ Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 
 **id**  
 
-(eindeutige Codierung des Knoten)   
+Eindeutige Codierung des Knoten 
 
 **weight**  
 
-prozentualer "Songwriting-Anteil" am Gesamtwerk  
+Prozentualer "Songwriting-Anteil" am Gesamtwerk  
 - 1 = niedriger Anteil (weniger als 20%)
 - 3 = hoher Anteil (20% bis 60%)
 - 5 = sehr hoher Anteil (mehr als 60%)
