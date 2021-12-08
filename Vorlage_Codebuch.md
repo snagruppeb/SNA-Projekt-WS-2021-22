@@ -16,24 +16,29 @@ Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*.
 # NODE-Attribute  
   
 **id**  
-- Identische ID wie aus der edgelist zur Identifikation der Knoten. 
+
+Identische ID wie aus der edgelist zur Identifikation der Knoten. 
 
 **name**
-- Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
+
+Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
   
 **type**    
+
 Um welche Art von Knoten handelt es sich?  
 - 1 = SongwriterIn
 - 2 = KünstlerIn 
 - 3 = Album
 
 **sex**    
+
 Geschlecht der KünstlerInnen und SongwriterInnen  
 - 1 = weiblich  
 - 2 = männlich 
 - 3 = divers
 
 **origin**
+
 Herkunft der KünstlerInnen und SongwriterInnen
 -	1 = britisch
 -	2 = US-amerikanisch
@@ -48,7 +53,8 @@ Herkunft der KünstlerInnen und SongwriterInnen
 
   
 **genre**    
-Genre  
+
+Genre des Albums
 - 1 = Pop
 - 2 = HipHop 
 - 3 = Schlager  
@@ -61,6 +67,7 @@ Genre
 - 10 = Jazz
 
 **language**  
+
 Sprache des Albums
 - 1 = englisch   
 - 2 = deutsch 
@@ -70,6 +77,7 @@ Sprache des Albums
 - 6 = sonstiges
 
 **time**
+
 Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 - 1 = ein bis zwei Wochen
 - 2 = drei bis vier Wochen
@@ -80,15 +88,18 @@ Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 # EDGE-Attribute
 
 **id**  
-- (eindeutige Codierung des Knoten)   
+
+(eindeutige Codierung des Knoten)   
 
 **weight**  
+
 prozentualer "Songwriting-Anteil" am Gesamtwerk  
 - 1 = niedriger Anteil (weniger als 20%)
 - 3 = hoher Anteil (20% bis 60%)
 - 5 = sehr hoher Anteil (mehr als 60%)
 
 **relation**
+
 Beziehungsart zwischen den Nodes  
 - 1 = externe(r) SongwriterIn
 - 2 = KünstlerIn selbst hat am Album mitgewirkt
