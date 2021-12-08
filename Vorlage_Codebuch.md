@@ -23,7 +23,7 @@ Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Arti
 **type***    
 Um welche Art von Knoten handelt es sich?  
 1 = SongwriterIn,  
-2 = KünstlerIn,
+2 = KünstlerIn, 
 3 = Album. 
 
 **sex**    
