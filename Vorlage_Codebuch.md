@@ -1,6 +1,7 @@
 # Datensatz Gruppe B #
-Codebuch Stand 2021-12, aktualisiert 2021-12
-erstellt von Karolina Justus (kj026), Philipp Kaltenmark (pk092), Leonie Kühn (lk182), Sarah Liebers (sl139) und Sara Rozic (sr181)
+- Codebuch Stand 2021-12, 
+- aktualisiert 2021-12
+- erstellt von Karolina Justus (kj026), Philipp Kaltenmark (pk092), Leonie Kühn (lk182), Sarah Liebers (sl139) und Sara Rozic (sr181)
 
 ## Inhalt
 - Edges.csv (Edgelist)
