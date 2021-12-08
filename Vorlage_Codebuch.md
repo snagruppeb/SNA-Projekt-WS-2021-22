@@ -15,10 +15,10 @@ Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*.
 # NODE-Attribute  
   
 **id**  
-Identische ID wie aus der edgelist zur Identifikation der Knoten. 
+- Identische ID wie aus der edgelist zur Identifikation der Knoten. 
 
 **name**
-Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
+- Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
   
 **type***    
 Um welche Art von Knoten handelt es sich?  
@@ -79,7 +79,7 @@ Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 # EDGE-Attribute
 
 **id**  
-(eindeutige Codierung des Knoten)   
+- (eindeutige Codierung des Knoten)   
 
 **weight**  
 prozentualer "Songwriting-Anteil" am Gesamtwerk  
