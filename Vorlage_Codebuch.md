@@ -19,18 +19,31 @@ Identische ID wie aus der edgelist zur Identifikation der Knoten.
 
 **name**
 Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
-
-**sex**    
-Bitte geben Sie ihr Geschlecht an:  
-1 = weiblich,  
-2 = männlich, 
-3 = divers.
   
 **type***    
 Um welche Art von Knoten handelt es sich?  
 1 = SongwriterIn,  
 2 = KünstlerIn,
 3 = Album. 
+
+**sex**    
+Bitte geben Sie ihr Geschlecht an:  
+1 = weiblich,  
+2 = männlich, 
+3 = divers.
+
+**origin**
+Herkunft der KünstlerInnen bzw. SongwriterInnen
+1 = britisch,
+2 = US-amerikanisch,
+3 = deutsch,
+4 = spanisch,
+5 = französisch,
+6 = italienisch,
+7 = kanadisch,
+8 = australisch,
+9 = schwedisch
+10 = sonstiges.
   
 **genre**    
 Welches Genre?    
@@ -54,39 +67,13 @@ Sprache des Albums?
 5 = italienisch,
 6 = sonstiges.  
 
-**origin**
-Herkunft der KünstlerInnen bzw. SongwriterInnen
-1 = britisch,
-2 = US-amerikanisch,
-3 = deutsch,
-4 = spanisch,
-5 = französisch,
-6 = italienisch,
-7 = kanadisch,
-8 = australisch,
-9 = schwedisch
-10 = sonstiges.
-
-**month**
-Momentaufnahme der Charts eines Monats
-1 = Januar,
-2 = Februar,
-3 = März,
-4 = April,
-5 = Mai,
-6 = Juni,
-7 = Juli,
-8 = August,
-9 = September,
-10 = Oktober,
-11 = November,
-12 = Dezember.
-
 **time**
 Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 1 = 1-2 Wochen,
 2 = 3-4 Wochen,
 3 = 5 und mehr Wochen.
+
+
 
 # EDGE-Attribute
 
