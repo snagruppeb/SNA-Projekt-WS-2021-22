@@ -64,7 +64,8 @@ Herkunft der KünstlerInnen bzw. SongwriterInnen
 6 = italienisch,
 7 = kanadisch,
 8 = australisch,
-9 = sonstiges.
+9 = schwedisch
+10 = sonstiges.
 
 **month**
 Momentaufnahme der Charts eines Monats
