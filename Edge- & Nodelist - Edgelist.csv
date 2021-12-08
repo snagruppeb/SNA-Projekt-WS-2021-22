@@ -1,0 +1,17 @@
+from,to,weight,relation
+Adele,30 by Adele,5,2
+Ludwig Goeransson,30 by Adele,1,1
+Greg Kurstin,30 by Adele,3,1
+Shellback,30 by Adele,1,1
+Max Martin,30 by Adele,1,1
+Erroll Garner,30 by Adele,1,1
+Inflo,30 by Adele,3,1
+Tobias Jesso Junior,30 by Adele,1,1
+30 by Adele,Adele,5,2
+30 by Adele,Ludwig Goeransson,1,1
+30 by Adele,Greg Kurstin,3,1
+30 by Adele,Shellback,1,1
+30 by Adele,Max Martin,1,1
+30 by Adele,Erroll Garner,1,1
+30 by Adele,Inflo,3,1
+30 by Adele,Tobias Jesso Junior,1,1
