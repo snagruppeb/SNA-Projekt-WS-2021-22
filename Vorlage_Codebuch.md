@@ -89,7 +89,7 @@ Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 
 **id**  
 
-Eindeutige Codierung des Knoten 
+Eindeutige Codierung des Knotens
 
 **weight**  
 
