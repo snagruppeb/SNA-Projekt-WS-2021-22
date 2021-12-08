@@ -8,7 +8,7 @@ erstellt von Karolina Justus (kj026), Philipp Kaltenmark (pk092), Leonie Kühn (
 - Codebuch.md (Codierung der Datensätze)
 
 ## Ursprung und Datenerhebung
-Wir haben den Datensatz im Kurs Netzwerkanalyse erhoben. Wir betrachten die wöchentlichen Top 3 Alben des Jahres 2021 der deutschen Alben-Charts (Quelle: https://www.offiziellecharts.de/charts/album). Aus jedem Album listen wir alle SongwriterInnen auf (Quelle: genius.com) und berechnen ihren prozentualen "Songwriting-Anteil" am Gesamtwerk.
+Wir haben den Datensatz im Kurs Netzwerkanalyse erhoben. Wir betrachten die wöchentlichen Top 3 Alben des Jahres 2021 der deutschen Alben-Charts (Quelle: https://www.offiziellecharts.de/charts/album). Aus jedem Album listen wir alle SongwriterInnen auf (Quelle: https://genius.com/) und berechnen ihren prozentualen "Songwriting-Anteil" am Gesamtwerk.
 
 Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*. 
 
