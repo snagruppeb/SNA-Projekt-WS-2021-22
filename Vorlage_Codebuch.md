@@ -1,6 +1,6 @@
-# Datensatz Semesterverbund CRPR2 #
-Codebuch Stand 2021-05, aktualisiert 2021-10
-erstellt von Swaran Sandhu (sandhu@hdm-stuttgart.de)
+# Datensatz Gruppe B #
+Codebuch Stand 2021-12, aktualisiert 2021-12
+erstellt von Karolina Justus (kj026), Philipp Kaltenmark (pk092), Leonie Kühn (lk182), Sarah Liebers (sl139) und Sara Rozic (sr181)
 
 ## Inhalt
 - Edges.csv (Edgelist)
@@ -8,120 +8,97 @@ erstellt von Swaran Sandhu (sandhu@hdm-stuttgart.de)
 - Codebuch.md (Codierung der Datensätze)
 
 ## Ursprung und Datenerhebung
-Ich habe den Datensatz unter den Studierenden des dritten Semesters im Kurs Netzwerkanalyse erhoben. Die Daten sind nach der Erhebung nach einem Zufallsprinzip anonymisiert worden.
+Wir haben den Datensatz im Kurs Netzwerkanalyse erhoben. Wir betrachten die wöchentlichen Top 3 Alben des Jahres 2021 der deutschen Alben-Charts (Quelle: https://www.offiziellecharts.de/charts/album). Aus jedem Album listen wir alle SongwriterInnen auf (Quelle: genius.com) und berechnen ihren prozentualen "Songwriting-Anteil" am Gesamtwerk.
 
-Das Netzwerk ist ein *gerichtetes one-mode Akteursnetzwerk*. Es wurden zwei getrennte Fragen erhoben:
+Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*. 
 
-**Projektarbeitsnetzwerk work**  
-1a) Bei Hochschulprojekten arbeite ich am liebsten mit folgender Person aus meinem Semester: Bitte tragen Sie das Kürzel der Person ein.  
-1b) Bei Hochschulprojekten arbeite ich am auch gerne mit folgender Person aus meinem Semester: Bitte tragen Sie das Kürzel der zweiten Person ein.  
+# NODE-Attribute  
   
-Für das Zusammenarbeitsnetzwerk *work* wurde der Person, die zuerst genannt wurde, ein Gewicht von 3 vergeben, die zweite Person erhielt ein Gewicht von 1. Insgesamt waren 76 Beziehungsmuster möglich.  
+**id**  
+Identische ID wie aus der edgelist zur Identifikation der Knoten. 
 
-**Unterstützungsnetzwerk help**  
-2a) Wenn Sie ein Problem oder eine studiengangsbezogene Frage haben, an welchen ihrer Mitstudenten aus ihrem Semester wenden Sie sich zuerst?  Bitte tragen Sie auch hier wieder das Kürzel ein.  
-2b) Wenn Sie ein Problem oder eine studiengangsbezogene Frage haben, an welchen ihrer Mitstudenten aus ihrem Semester wenden Sie sich als nächstes? Bitte tragen Sie auch hier wieder das Kürzel ein.
-  
-Für das Unterstützungsnetzwerk *help* wurde der Person, die zuerst genannt wurde, ein Gewicht von 3 vergeben, die zweite Person erhielt ein Gewicht von 1. Insgesamt waren 76 Beziehungsmuster möglich.
-  
-**Beziehungsnetzwerk love**
-Das Edge-Attribut *complicated* beschreibt drei unterschiedliche Beziehungsmuster innerhalb der Gruppe. Diese Kriterien haben kein eigenes Gewicht, sondern sind über die Art der Beziehung definiert (reziproke Paarbeziehung, tinder-Aktivität, einseitige Beziehung).
+**name**
+Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
 
+**sex**    
+Bitte geben Sie ihr Geschlecht an:  
+1 = weiblich,  
+2 = männlich, 
+3 = divers.
+  
+**type***    
+Um welche Art von Knoten handelt es sich?  
+1 = SongwriterIn,  
+2 = KünstlerIn,
+3 = Album. 
+  
+**genre**    
+Welches Genre?    
+1 = Pop,   
+2 = HipHop,   
+3 = Schlager,   
+4 = Rock,
+5 = Alternative,
+6 = Electro,
+7 = RnB,
+8 = Country,
+9 = Metal,
+10 = Jazz.
+
+**language**  
+Sprache des Albums?  
+1 = englisch,      
+2 = deutsch,   
+3 = spanisch,    
+4 = französisch,
+5 = italienisch,
+6 = sonstiges.  
+
+**origin**
+Herkunft der KünstlerInnen bzw. SongwriterInnen
+1 = britisch,
+2 = US-amerikanisch,
+3 = deutsch,
+4 = spanisch,
+5 = französisch,
+6 = italienisch,
+7 = kanadisch,
+8 = australisch,
+9 = sonstiges.
+
+**month**
+Momentaufnahme der Charts eines Monats
+1 = Januar,
+2 = Februar,
+3 = März,
+4 = April,
+5 = Mai,
+6 = Juni,
+7 = Juli,
+8 = August,
+9 = September,
+10 = Oktober,
+11 = November,
+12 = Dezember.
+
+**time**
+Wie lange ist das Album in den Top 3 Charts (in Wochen)?
+1 = 1-2 Wochen,
+2 = 3-4 Wochen,
+3 = 5 und mehr Wochen.
 
 # EDGE-Attribute
 
 **id**  
 (eindeutige Codierung des Knoten)   
-codiert von 1 bis 38, jede ID entspricht einem Studenten
 
 **weight**  
-Beziehungsstärke aufgrund der Nennung in den Fragen)  
-3 = sehr starke Beziehung (erste Nennung),   
-1 = starke Beziehung vorhanden (zweite Nennung)
+prozentualer "Songwriting-Anteil" am Gesamtwerk  
+1 = niedriger Anteil (weniger als 20%),
+3 = hoher Anteil (20% bis 60%),
+5 = sehr hoher Anteil (mehr als 60%).
 
 **relation**
-Beziehungsart zwischen den Personen  
-1 = *work* Projektbasierte Beziehung: Bei einem gerichteten Netzwerk präferiert der Sender (erste Spalte) die Zusammenarbeit mit der genannten Zielperson (zweite Spalte).  
-2 = *help* Unterstützungsbeziehung: Bei einem gerichteten Netzwerk fragt der Sender (erste Spalte) die genannte Person (zweite Spalte) um Rat.  
-3 = *love* Liebesbeziehung zwischen Akteuren, codiert nach dem Attribut *complicated*
-
-**complicated**  
-1 = Beziehung (typische Paarbeziehung, d.h. reziprok zwischen beiden PartnerInnen),      
-2 = Tinder-Like (hat die person rechts geswiped, muss aber nicht gegenseitig sein)     
-3 = Crush (einseitig verliebt, ohne dass die Person etwas davon weiss).  
-
-
-# NODE-Attribute  
-  
-**id**  
-Identische ID wie aus der edgelist zur Identifikation der Knoten. In diesem Fall sind alle personenbezogenen Daten anonymisiert von 1 bis 38.
-
-**name**
-numerische ID
-
-**name_first**
-Vorname abgekürzt, z.B. für Visualiserung, falls der Name zu lange ist
-
-**sex**    
-Bitte geben Sie ihr Geschlecht an:  
-1 = weiblich  
-2 = männlich  
-3 = divers
-  
-**crpr***    
-Welche Studienrichtung haben Sie vertieft?  
-1 = CR  
-2 = PR
-
-**height**  
-Größe in cm   
-
-**weight**  
-Gewicht in kg  
-
-**age_real**   
-Alter in natürlichen Zahlen.  
-
-**age**   
-Bitte geben Sie Ihr Alter an:  
-1 = bis 20 Jahre    
-2 = 21 bis 22 Jahre    
-3 = 23 bis 24 Jahre  
-4 = 25 und älter  
-
-**smoke**    
-Rauchen Sie mindestens ein Mal pro Woche?  
-1 = nein   
-2 = ja  
-  
-**tatoo**    
-Tatoo vorhanden?   
-1 = nein  
-2 = ja  
-
-**phone**  
-1 = android  
-2 = iOS/iphone  
-  
-**eyes**    
-Welche Augenfarbe?    
-1 = grün,   
-2 = blau,   
-3 = braun,   
-4 = blau.     
-
-**hair**  
-Welche Haarfarbe?  
-1 = braun,      
-2 = schwarz,   
-3 = blond,    
-4 = rot.    
-
-**location** 
-Wohnort, als string/characters codiert  
-
-**county**  
-Bundesland, als string/characters codiert  
-
-
-##
+Beziehungsart zwischen den Nodes  
+1 = externe(r) SongwriterIn, 
+2 = KünstlerIn selbst hat am Album mitgewirkt.
