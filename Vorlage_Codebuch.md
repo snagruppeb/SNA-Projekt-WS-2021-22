@@ -27,13 +27,13 @@ Um welche Art von Knoten handelt es sich?
 - 3 = Album. 
 
 **sex**    
-Bitte geben Sie ihr Geschlecht an:  
+Geschlecht der KünstlerInnen und SongwriterInnen  
 - 1 = weiblich,  
 - 2 = männlich, 
 - 3 = divers.
 
 **origin**
-Herkunft der KünstlerInnen bzw. SongwriterInnen
+Herkunft der KünstlerInnen und SongwriterInnen
 -	1 = britisch,
 -	2 = US-amerikanisch,
 -	3 = deutsch,
