@@ -48,7 +48,7 @@ Herkunft der KünstlerInnen und SongwriterInnen
 
   
 **genre**    
-Welches Genre?    
+Genre  
 - 1 = Pop
 - 2 = HipHop 
 - 3 = Schlager  
@@ -61,7 +61,7 @@ Welches Genre?
 - 10 = Jazz
 
 **language**  
-Sprache des Albums?  
+Sprache des Albums
 - 1 = englisch   
 - 2 = deutsch 
 - 3 = spanisch  
