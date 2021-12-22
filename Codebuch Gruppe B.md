@@ -50,7 +50,6 @@ Herkunft der KünstlerInnen und SongwriterInnen
 -	8 = australisch
 - 9 = schwedisch
 -	10 = sonstiges
-
   
 **genre**    
 
@@ -91,7 +90,13 @@ Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 
 Eindeutige Codierung des Knotens
 
-**weight**  
+**participation** 
+
+- 1 = niedriger Anteil ()
+- 3 = hoher Anteil ()
+- 5 = sehr hoher Anteil ()
+
+**weight**
 
 Prozentualer "Songwriting-Anteil" am Gesamtwerk  
 - 1 = niedriger Anteil (weniger als 20%)
