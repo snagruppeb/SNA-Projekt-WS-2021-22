@@ -94,8 +94,8 @@ Eindeutige Codierung des Knotens
 
 - 1 = sehr niedriger Anteil (1-2)
 - 3 = niedriger Anteil (3-5)
-- 3 = hoher Anteil (6-9)
-- 5 = sehr hoher Anteil (>9)
+- 5 = hoher Anteil (6-9)
+- 7 = sehr hoher Anteil (>9)
 
 **weight**
 
