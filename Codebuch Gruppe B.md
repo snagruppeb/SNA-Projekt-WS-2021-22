@@ -92,9 +92,10 @@ Eindeutige Codierung des Knotens
 
 **participation** 
 
-- 1 = niedriger Anteil ()
-- 3 = hoher Anteil ()
-- 5 = sehr hoher Anteil ()
+- 1 = sehr niedriger Anteil (1-2)
+- 3 = niedriger Anteil (3-5)
+- 3 = hoher Anteil (6-9)
+- 5 = sehr hoher Anteil (>9)
 
 **weight**
 
