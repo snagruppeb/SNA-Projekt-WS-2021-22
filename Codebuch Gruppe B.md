@@ -92,6 +92,7 @@ Eindeutige Codierung des Knotens
 
 **participation** 
 
+Anzahl der Songs eines Albums, an denen mitgearbeitet wurde
 - 1 = sehr niedriger Anteil (1-2)
 - 3 = niedriger Anteil (3-5)
 - 5 = hoher Anteil (6-9)
