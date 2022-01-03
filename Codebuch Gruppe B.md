@@ -9,8 +9,8 @@
 - Codebuch.md (Codierung der Datensätze)
 
 ## Ursprung und Datenerhebung
-Wir haben den Datensatz im Kurs Netzwerkanalyse erhoben. Wir betrachten die Top 10 der internationalen Album-Charts ab 2011 (Quelle für Charts ab 2016: Global Music Reports der IFPI https://www.musikindustrie.de/publikationen/global-music-report; Quelle für Charts älter als 2016: Digital Music Reports der IFPI: https://www.musikindustrie.de/publikationen/digital-music-report). 
-Aus jedem Album listen wir alle SongwriterInnen auf (Quelle: https://genius.com/, zum Abgleich GEMA-Datenbank https://online.gema.de/werke/search.faces) und berechnen unter anderem ihren prozentualen "Songwriting-Anteil" am Gesamtwerk.
+Wir haben den Datensatz im Kurs Netzwerkanalyse erhoben. Wir betrachten die Top 10 der internationalen Album-Charts ab 2011 (Quelle für Charts ab 2016: Global Music Reports der IFPI, https://www.musikindustrie.de/publikationen/global-music-report; Quelle für Charts älter als 2016: Digital Music Reports der IFPI, https://www.musikindustrie.de/publikationen/digital-music-report). 
+Aus jedem Album listen wir alle SongwriterInnen auf (Quelle: https://genius.com/; zum Abgleich GEMA-Datenbank https://online.gema.de/werke/search.faces) und berechnen unter anderem ihren prozentualen "Songwriting-Anteil" am Gesamtwerk.
 
 Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*. 
 
