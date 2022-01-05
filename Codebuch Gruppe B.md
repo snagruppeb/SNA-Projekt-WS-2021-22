@@ -18,7 +18,7 @@ Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*.
   
 **id**  
 
-Die ersten vier Buchstaben des Namens aus "name" zur Identifikation der Knoten.
+Die ersten vier Zeichen des Namens aus "name" zur Identifikation der Knoten.
 
 **name**
 
