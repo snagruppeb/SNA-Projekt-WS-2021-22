@@ -30,6 +30,7 @@ Um welche Art von Knoten handelt es sich?
 - 1 = SongwriterIn
 - 2 = KünstlerIn 
 - 3 = Album
+- 4 = Feature
 
 **sex**    
 
