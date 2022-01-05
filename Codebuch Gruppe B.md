@@ -79,7 +79,7 @@ Sprache des Albums
 
 **time**
 
-Wie lange ist das Album in den Top 3 Charts (in Wochen)?
+Wie lange ist das Album in den Top 3 Global Charts (in Wochen)?
 - 1 = ein bis zwei Wochen
 - 2 = drei bis vier Wochen
 - 3 = fünf und mehr Wochen
