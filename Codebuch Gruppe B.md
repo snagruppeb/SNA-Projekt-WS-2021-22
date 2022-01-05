@@ -28,9 +28,9 @@ Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Arti
 
 Um welche Art von Knoten handelt es sich?  
 - 1 = SongwriterIn
-- 2 = KünstlerIn 
+- 2 = KünstlerIn und SongwriterIn
 - 3 = Album
-- 4 = Feature
+- 4 = Feature und SongwriterIn
 
 **sex**    
 
