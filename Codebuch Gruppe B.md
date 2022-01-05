@@ -18,7 +18,7 @@ Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*.
   
 **id**  
 
-Die ersten vier Zeichen (keine Leerzeichen; Punkte werden übernommen, jedoch nicht gezählt, z.B. J.T. Cure -> J.T.Cu) des Namens aus "name" zur Identifikation der Knoten. Groß- und Kleinschreibung werden entsprechend übernommen.
+Die ersten vier Zeichen (keine Leerzeichen; keine Anführungszeichen; Punkte werden übernommen, jedoch nicht gezählt, z.B. J.T. Cure -> J.T.Cu) des Namens aus "name" zur Identifikation der Knoten. Groß- und Kleinschreibung werden entsprechend übernommen.
 
 **name**
 
