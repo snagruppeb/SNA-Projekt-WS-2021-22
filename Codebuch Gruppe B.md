@@ -77,13 +77,6 @@ Sprache des Albums
 - 5 = italienisch
 - 6 = sonstiges
 
-**time**
-
-Wie lange ist das Album in den Top 3 Global Charts (in Wochen)?
-- 1 = ein bis zwei Wochen
-- 2 = drei bis vier Wochen
-- 3 = fünf und mehr Wochen
-
 **year**
 
 (Zahl entspricht Jahr)
