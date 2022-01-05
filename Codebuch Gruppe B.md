@@ -83,6 +83,21 @@ Wie lange ist das Album in den Top 3 Charts (in Wochen)?
 - 2 = drei bis vier Wochen
 - 3 = fünf und mehr Wochen
 
+**year**
+
+(Zahl entspricht Jahr)
+
+- 2011
+- 2012
+- 2013
+- 2014
+- 2015
+- 2016
+- 2017
+- 2018
+- 2019
+- 2020
+
 
 
 # EDGE-Attribute
