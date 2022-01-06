@@ -66,6 +66,8 @@ Genre des Albums
 - 8 = Country
 - 9 = Metal
 - 10 = Jazz
+- 11 = K-Pop
+- 12 = sonstiges
 
 **language**  
 
