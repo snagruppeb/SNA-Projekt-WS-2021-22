@@ -22,7 +22,7 @@ Die ersten vier Zeichen (keine Leerzeichen; keine Anführungszeichen; keine Bind
 
 **name**
 
-Namen der KünstlerInnen bzw. SongwriterInnen und der Alben mit Nennung des Artists
+Namen der KünstlerInnen bzw. SongwriterInnen bzw. der Alben mit Nennung des Artists
   
 **type**    
 
