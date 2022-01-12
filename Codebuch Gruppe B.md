@@ -27,10 +27,8 @@ Namen der KünstlerInnen bzw. SongwriterInnen bzw. der Alben mit Nennung des Art
 **type**    
 
 Um welche Art von Knoten handelt es sich?  
-- 1 = SongwriterIn
-- 2 = KünstlerIn und SongwriterIn
-- 3 = Album
-- 4 = Feature und SongwriterIn
+- 1 = Album
+- 2 = SongwriterIn
 
 **sex**    
 
@@ -122,4 +120,5 @@ Prozentualer "Songwriting-Anteil" am Gesamtwerk
 
 Beziehungsart zwischen den Nodes  
 - 1 = externe(r) SongwriterIn
-- 2 = KünstlerIn selbst hat am Album mitgewirkt
+- 2 = KünstlerIn des Albums und SongwriterIn
+- 3 = Feature und SongwriterIn
