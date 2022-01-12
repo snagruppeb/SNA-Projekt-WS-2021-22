@@ -40,16 +40,16 @@ Geschlecht der KünstlerInnen und SongwriterInnen
 **origin**
 
 Herkunft der KünstlerInnen und SongwriterInnen
--	1 = britisch
--	2 = US-amerikanisch
--	3 = deutsch
--	4 = spanisch
--	5 = französisch
--	6 = italienisch
--	7 = kanadisch
--	8 = australisch
-- 9 = schwedisch
--	10 = sonstiges
+-	1 = Vereinigtes Königreich
+-	2 = USA
+-	3 = Deutschland
+-	4 = Spanien
+-	5 = Frankreich
+-	6 = Italien
+-	7 = Kanada
+-	8 = Australien
+- 9 = Schweden
+- 10 = Sonstiges
   
 **genre**    
 
@@ -65,7 +65,9 @@ Genre des Albums
 - 9 = Metal
 - 10 = Jazz
 - 11 = K-Pop
-- 12 = sonstiges
+- 12 = Soundtrack
+- 13 = Christmas
+- 14 = Sonstiges
 
 **language**  
 
@@ -79,7 +81,7 @@ Sprache des Albums
 
 **year**
 
-(Zahl entspricht Jahr)
+Zahl entspricht Jahr
 
 - 2011
 - 2012
@@ -91,6 +93,10 @@ Sprache des Albums
 - 2018
 - 2019
 - 2020
+
+**track**
+
+Zahl entspricht der Anzahl der Tracks
 
 
 
