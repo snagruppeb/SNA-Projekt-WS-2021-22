@@ -27,8 +27,8 @@ Namen der KünstlerInnen bzw. SongwriterInnen bzw. der Alben mit Nennung des Art
 **type**    
 
 Um welche Art von Knoten handelt es sich?  
-- 1 = Album
-- 2 = SongwriterIn
+- 1 = SongwriterIn
+- 2 = Album
 
 **sex**    
 
