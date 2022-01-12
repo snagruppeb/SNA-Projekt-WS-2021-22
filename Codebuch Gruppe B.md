@@ -113,9 +113,10 @@ Anzahl der Songs eines Albums, an denen mitgearbeitet wurde
 **weight**
 
 Prozentualer "Songwriting-Anteil" am Gesamtwerk  
-- 1 = niedriger Anteil (weniger als 20%)
-- 3 = hoher Anteil (20% bis 60%)
-- 5 = sehr hoher Anteil (mehr als 60%)
+- 1 = sehr niedriger Anteil (weniger als 20%)
+- 3 = niedriger Anteil (20% bis 60%)
+- 5 = hoher Anteil (mehr als 60%)
+- 7 = sehr hoher Anteil (100%)
 
 **relation**
 
