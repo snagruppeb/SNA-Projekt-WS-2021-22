@@ -94,6 +94,10 @@ Zahl entspricht Jahr
 - 2019
 - 2020
 
+**second year**
+
+Zahl entspricht dem weiteren Jahr, in dem das Album in den Charts war
+
 **tracks**
 
 Zahl entspricht der Anzahl der Tracks
