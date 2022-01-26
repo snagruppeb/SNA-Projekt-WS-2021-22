@@ -112,19 +112,19 @@ Eindeutige Codierung des Knotens
 
 **participation** 
 
-Anzahl der Songs eines Albums, an denen mitgearbeitet wurde
-- 1 = sehr niedriger Anteil (1-2)
-- 3 = niedriger Anteil (3-5)
-- 5 = hoher Anteil (6-9)
-- 7 = sehr hoher Anteil (>9)
-
-**weight**
-
 Prozentualer "Songwriting-Anteil" am Gesamtwerk  
 - 1 = sehr niedriger Anteil (weniger als 20%)
 - 3 = niedriger Anteil (20% bis 60%)
 - 5 = hoher Anteil (mehr als 60%)
 - 7 = sehr hoher Anteil (100%)
+
+**weight**
+
+Anzahl der Songs eines Albums, an denen mitgearbeitet wurde
+- 1 = sehr niedriger Anteil (1-2)
+- 3 = niedriger Anteil (3-5)
+- 5 = hoher Anteil (6-9)
+- 7 = sehr hoher Anteil (>9)
 
 **relation**
 
