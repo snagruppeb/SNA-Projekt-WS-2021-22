@@ -110,6 +110,14 @@ Zahl entspricht der Anzahl der Tracks
 
 Eindeutige Codierung des Knotens
 
+**weight**
+
+Anzahl der Songs eines Albums, an denen mitgearbeitet wurde in Kategorien
+- 1 = sehr niedriger Anteil (1-2)
+- 3 = niedriger Anteil (3-5)
+- 5 = hoher Anteil (6-9)
+- 7 = sehr hoher Anteil (>9)
+
 **participation** 
 
 Prozentualer "Songwriting-Anteil" am Gesamtwerk  
@@ -118,17 +126,15 @@ Prozentualer "Songwriting-Anteil" am Gesamtwerk
 - 5 = hoher Anteil (mehr als 60%)
 - 7 = sehr hoher Anteil (100%)
 
-**weight**
-
-Anzahl der Songs eines Albums, an denen mitgearbeitet wurde
-- 1 = sehr niedriger Anteil (1-2)
-- 3 = niedriger Anteil (3-5)
-- 5 = hoher Anteil (6-9)
-- 7 = sehr hoher Anteil (>9)
-
 **relation**
 
 Beziehungsart zwischen den Nodes  
 - 1 = externe(r) SongwriterIn
 - 2 = KünstlerIn des Albums und SongwriterIn
 - 3 = Feature und SongwriterIn
+
+**count**
+
+Zahl entspricht der Anzahl der Songs eines Albums, an denen mitgearbeitet wurde
+
+
