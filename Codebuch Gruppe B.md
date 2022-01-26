@@ -96,7 +96,7 @@ Zahl entspricht Jahr
 
 **second year**
 
-Zahl entspricht dem weiteren Jahr, in dem das Album in den Charts war
+Zahl entspricht einem weiteren Jahr, in dem das Album in den Charts war
 
 **tracks**
 
