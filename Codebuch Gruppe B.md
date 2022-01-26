@@ -100,7 +100,7 @@ Zahl entspricht einem weiteren Jahr, in dem das Album in den Charts war
 
 **tracks**
 
-Zahl entspricht der Anzahl der Tracks
+Zahl entspricht der Gesamtanzahl der Tracks
 
 
 
@@ -112,19 +112,19 @@ Eindeutige Codierung des Knotens
 
 **weight**
 
-Anzahl der Songs eines Albums, an denen mitgearbeitet wurde in Kategorien
-- 1 = sehr niedriger Anteil (1-2)
-- 3 = niedriger Anteil (3-5)
-- 5 = hoher Anteil (6-9)
-- 7 = sehr hoher Anteil (>9)
-
-**participation** 
-
 Prozentualer "Songwriting-Anteil" am Gesamtwerk  
 - 1 = sehr niedriger Anteil (weniger als 20%)
 - 3 = niedriger Anteil (20% bis 60%)
 - 5 = hoher Anteil (mehr als 60%)
 - 7 = sehr hoher Anteil (100%)
+
+**participation** 
+
+Anzahl der Songs eines Albums, an denen mitgearbeitet wurde in Kategorien
+- 1 = sehr niedriger Anteil (1-2)
+- 3 = niedriger Anteil (3-5)
+- 5 = hoher Anteil (6-9)
+- 7 = sehr hoher Anteil (>9)
 
 **relation**
 
