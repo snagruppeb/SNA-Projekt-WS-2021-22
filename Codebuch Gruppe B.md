@@ -115,7 +115,7 @@ Eindeutige Codierung des Knotens
 Prozentualer "Songwriting-Anteil" am Gesamtwerk  
 - 1 = sehr niedriger Anteil (weniger als 20%)
 - 3 = niedriger Anteil (20% bis 60%)
-- 5 = hoher Anteil (mehr als 60%)
+- 5 = hoher Anteil (60% bis 99%)
 - 7 = sehr hoher Anteil (100%)
 
 **participation** 
